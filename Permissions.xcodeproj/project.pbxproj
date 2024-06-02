@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		1FFD5A022C0BD1F7004D1312 /* PermissionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD5A012C0BD1F7004D1312 /* PermissionsApp.swift */; };
-		1FFD5A042C0BD1F7004D1312 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD5A032C0BD1F7004D1312 /* ContentView.swift */; };
+		1FFD5A042C0BD1F7004D1312 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD5A032C0BD1F7004D1312 /* HomeView.swift */; };
 		1FFD5A062C0BD1F8004D1312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFD5A052C0BD1F8004D1312 /* Assets.xcassets */; };
 		1FFD5A092C0BD1F8004D1312 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFD5A082C0BD1F8004D1312 /* Preview Assets.xcassets */; };
 		1FFD5A132C0BD1F8004D1312 /* PermissionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD5A122C0BD1F8004D1312 /* PermissionsTests.swift */; };
 		1FFD5A1D2C0BD1F8004D1312 /* PermissionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD5A1C2C0BD1F8004D1312 /* PermissionsUITests.swift */; };
 		1FFD5A1F2C0BD1F8004D1312 /* PermissionsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD5A1E2C0BD1F8004D1312 /* PermissionsUITestsLaunchTests.swift */; };
+		1FFD5A2C2C0BD3CC004D1312 /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD5A2B2C0BD3CC004D1312 /* GetStartedView.swift */; };
+		1FFD5A2E2C0BD469004D1312 /* SetUpPermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD5A2D2C0BD469004D1312 /* SetUpPermissionsView.swift */; };
+		1FFD5A302C0BD4A1004D1312 /* PermissionsUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD5A2F2C0BD4A1004D1312 /* PermissionsUtility.swift */; };
+		1FFD5A322C0BD7F7004D1312 /* PermissionsFlowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD5A312C0BD7F7004D1312 /* PermissionsFlowViewModel.swift */; };
+		1FFD5A342C0BE90B004D1312 /* BluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD5A332C0BE90B004D1312 /* BluetoothView.swift */; };
+		1FFD5A362C0BE9A9004D1312 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD5A352C0BE9A9004D1312 /* LocationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		1FFD59FE2C0BD1F7004D1312 /* Permissions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Permissions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFD5A012C0BD1F7004D1312 /* PermissionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsApp.swift; sourceTree = "<group>"; };
-		1FFD5A032C0BD1F7004D1312 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FFD5A032C0BD1F7004D1312 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1FFD5A052C0BD1F8004D1312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FFD5A082C0BD1F8004D1312 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1FFD5A0E2C0BD1F8004D1312 /* PermissionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PermissionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,12 @@
 		1FFD5A182C0BD1F8004D1312 /* PermissionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PermissionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFD5A1C2C0BD1F8004D1312 /* PermissionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsUITests.swift; sourceTree = "<group>"; };
 		1FFD5A1E2C0BD1F8004D1312 /* PermissionsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1FFD5A2B2C0BD3CC004D1312 /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
+		1FFD5A2D2C0BD469004D1312 /* SetUpPermissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpPermissionsView.swift; sourceTree = "<group>"; };
+		1FFD5A2F2C0BD4A1004D1312 /* PermissionsUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsUtility.swift; sourceTree = "<group>"; };
+		1FFD5A312C0BD7F7004D1312 /* PermissionsFlowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsFlowViewModel.swift; sourceTree = "<group>"; };
+		1FFD5A332C0BE90B004D1312 /* BluetoothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothView.swift; sourceTree = "<group>"; };
+		1FFD5A352C0BE9A9004D1312 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +107,15 @@
 			isa = PBXGroup;
 			children = (
 				1FFD5A012C0BD1F7004D1312 /* PermissionsApp.swift */,
-				1FFD5A032C0BD1F7004D1312 /* ContentView.swift */,
+				1FFD5A032C0BD1F7004D1312 /* HomeView.swift */,
 				1FFD5A052C0BD1F8004D1312 /* Assets.xcassets */,
 				1FFD5A072C0BD1F8004D1312 /* Preview Content */,
+				1FFD5A2B2C0BD3CC004D1312 /* GetStartedView.swift */,
+				1FFD5A2D2C0BD469004D1312 /* SetUpPermissionsView.swift */,
+				1FFD5A2F2C0BD4A1004D1312 /* PermissionsUtility.swift */,
+				1FFD5A312C0BD7F7004D1312 /* PermissionsFlowViewModel.swift */,
+				1FFD5A332C0BE90B004D1312 /* BluetoothView.swift */,
+				1FFD5A352C0BE9A9004D1312 /* LocationView.swift */,
 			);
 			path = Permissions;
 			sourceTree = "<group>";
@@ -257,7 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FFD5A042C0BD1F7004D1312 /* ContentView.swift in Sources */,
+				1FFD5A302C0BD4A1004D1312 /* PermissionsUtility.swift in Sources */,
+				1FFD5A362C0BE9A9004D1312 /* LocationView.swift in Sources */,
+				1FFD5A342C0BE90B004D1312 /* BluetoothView.swift in Sources */,
+				1FFD5A322C0BD7F7004D1312 /* PermissionsFlowViewModel.swift in Sources */,
+				1FFD5A042C0BD1F7004D1312 /* HomeView.swift in Sources */,
+				1FFD5A2E2C0BD469004D1312 /* SetUpPermissionsView.swift in Sources */,
+				1FFD5A2C2C0BD3CC004D1312 /* GetStartedView.swift in Sources */,
 				1FFD5A022C0BD1F7004D1312 /* PermissionsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,7 +371,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is required to do cool stuff.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Location is required to do cool stuff.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +433,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is required to do cool stuff.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Location is required to do cool stuff.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -430,6 +464,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +494,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
